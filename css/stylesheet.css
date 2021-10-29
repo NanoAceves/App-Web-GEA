@@ -1,17 +1,72 @@
 @import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200&family=Sarabun:ital,wght@1,500&display=swap");
 
-h2,
+h1,
 h5 {
   font-family: "Sarabun", sans-serif;
   color: #f2e8fc;
 }
+
+#banner h1 {
+  font-size: 400%;
+}
+
+#banner h5 {
+  font-size: 200%;
+}
+#texto-descripcion p {
+  color: #527f47;
+  font-size: 110%;
+  text-align: justify;
+}
+#texto-descripcion ul {
+  color: #527f47;
+  font-size: 110%;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
 p {
   font-family: "Bai Jamjuree", sans-serif;
   color: #f2e8fc;
 }
 body {
-  background-color: #f2e8cf;
+  background-color: white;
 }
 #banner {
-  background-color: #3e505b;
+  vertical-align: middle;
+  background-color: black;
+  background-image: url("../img/textura-mar.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  opacity: 1;
+  padding: 20px;
+}
+
+.button {
+  text-align: center;
+  background-color: white;
+  border-radius: 8px;
+  font-size: 150%;
+  color: #3e505b;
+  font-family: "Sarabun", sans-serif;
+}
+
+.button a {
+  text-decoration: none;
+  font-family: "Sarabun", sans-serif;
+  color: #3e505b;
+}
+
+.footer {
+  font-family: "Sarabun", sans-serif;
+  color: #f2e8fc;
+  background-color: green;
+}
+
+#footer p {
+  font-family: "Bai Jamjuree", sans-serif;
+  color: #f2e8fc;
+}
+span {
+  font-weight: bold;
 }
