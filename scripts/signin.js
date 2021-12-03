@@ -24,7 +24,7 @@ fForm.addEventListener("submit", async (e) => {
       const user = userCredential.user;
       alert("SIGNED IN SUCCESFULLY");
       // TAKE USER TO HOME PAGE
-      window.open("/pages/main.html");
+      window.open("../pages/main.html");
     })
     .catch((error) => {
       const errorCode = error.code;
