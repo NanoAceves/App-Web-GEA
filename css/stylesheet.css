@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200&family=Sarabun:ital,wght@1,500&display=swap");
 
+#exampleModalLabel {
+  color: #527f47;
+}
+
 h1,
 h5 {
   font-family: "Sarabun", sans-serif;
